@@ -4,7 +4,7 @@
 
 	// Make sure to put any external components or ts files in the lib folder so that we can use this convienient $lib import syntax
 	import Example from '$lib/components/Example.svelte';
-	import { TEST_CLIENT_MODULE } from 'app-backend'; // app-backend is our module for Firebase logic
+	import { TEST_CLIENT_MODULE } from 'app-client'; // app-client is our module for Firebase logic
 	import { onDestroy, onMount } from 'svelte';
 
 	// State can be created with the let keyword
